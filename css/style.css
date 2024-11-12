@@ -1,0 +1,410 @@
+@font-face {
+    font-family:Pretendard-Regular ;
+    src: url(../fonts/pretendard/Pretendard-Regular.otf);
+}
+@font-face {
+    font-family:Pretendard-Medium ;
+    src: url(../fonts/pretendard/Pretendard-Medium.otf);
+}
+@font-face {
+    font-family:SchibstedGrotesk-SemiBold ;
+    src: url(../fonts/schibsted-grotesk/SchibstedGrotesk-SemiBold.ttf);
+}
+@font-face {
+    font-family:SchibstedGrotesk-Bold ;
+    src: url(../fonts/schibsted-grotesk/SchibstedGrotesk-Bold.ttf);
+}
+@font-face {
+    font-family:SchibstedGrotesk-Medium ;
+    src: url(../fonts/schibsted-grotesk/SchibstedGrotesk-Medium.ttf);
+}
+
+/* header start */
+header{
+    padding: 14px 0;
+	background-color: rgba(29, 29, 29, 0.70);
+    opacity: 45.349998474121094px;
+}
+.logo img{
+    width: 100%;
+}
+.menu ul li{
+	margin-right:40px;
+}
+.menu ul li a{
+	color: #FFF !important;
+    font-family: Pretendard-Medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    transition: .5s;
+}
+.menu ul li a:hover{
+	color: #00AEEF !important;
+    text-decoration: underline;
+}
+.common-btn{
+    padding: 15.5px 24px;
+    background: #00AEEF;
+    box-shadow: 0px 2px 0px 0px #007FAD, 0px 4px 6.9px 0px #6CC9EB inset;
+    border-radius: 400px;
+    border: 2px solid transparent;
+    color: #FFF;
+    text-decoration: none;
+    font-family: Pretendard-Medium;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    transition: .5s;
+}
+.common-btn:hover{
+    color: #FFF;
+    border: 2px solid rgba(255, 255, 255, 0.24);
+    background:rgba(255, 255, 255, 0.31);
+    box-shadow:none;
+    opacity: 5px;
+}
+/* header end */
+
+
+/* hero section start */
+.hero-section{
+    padding-top: 483px;
+    padding-bottom: 70px;
+    background-image: url(../images/hero.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.hero-section h1{
+    color: #FFF;
+    font-family: "SchibstedGrotesk-Bold";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 96px */
+}
+.hero-section p{
+    margin-top: 24px;
+    margin-bottom: 36px;
+    color: #FFF;
+    font-family: Pretendard-Regular;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 145.833% */
+}
+.hero-section img{
+    width: 3%;
+}
+/* hero section end */
+
+/* about section start */
+.about{
+    padding: 150px 0;
+    background: #101010;
+    text-align: justify;
+}
+.about h1{
+    color: #00AEEF;
+    font-family: "SchibstedGrotesk-SemiBold";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+}
+.about h5{
+    margin-top: 100px;
+    margin-bottom: 24px;
+    color: var(--White, #FFF);
+    font-family: "SchibstedGrotesk-Medium";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39px; /* 121.875% */
+}
+.about p{
+    color:  #FFF;
+    font-family: Pretendard-Regular;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+/* about section end */
+
+/* mission and vision start */
+.mission{
+    margin-bottom: 140px;
+}
+.mission-vision{
+    background: #101010;
+}
+.mission-vision-text img{
+    width: 10%;
+}
+.mission-vision-text h2{
+    color:  #00AEEF;
+    font-family: "SchibstedGrotesk-SemiBold";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.mission-vision-text p{
+    color: #FFF;
+    font-family: "Pretendard-Regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 152.4%; /* 30.48px */
+}
+.mission-vision-image img{
+    width: 100%;
+}
+/* mission and vision end */
+
+/* management start */
+.management{
+    padding: 150px 0;
+    background: #101010;
+}
+.common-h1{
+    margin-bottom: 128px;
+    color: #00AEEF;
+    text-align: center;
+    font-family: "SchibstedGrotesk-SemiBold";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.management img{
+    width: 90%;
+    transition: .5s;
+}
+.management img:hover{
+    transform: scale(.9);
+}
+.management h6{
+    margin-top: 10px;
+    color: #FFF;
+    font-family: "SchibstedGrotesk-SemiBold";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.management p{
+    color: #FFF;
+    font-family: "Pretendard-Medium";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.m1{
+    margin-top: 40px;
+}
+.m3{
+    margin-top: 40px;
+}
+.m5{
+    margin-top: 40px;
+}
+/* management end */
+
+/* priciples start */
+.principles{
+    background: #101010;
+}
+.principles-text{
+    margin-top: 100px;
+}
+.principles-text h5{
+    color:  #FFF;
+    font-family: "SchibstedGrotesk-SemiBold";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.principles-text p{
+    color: #FFF;
+    font-family: "Pretendard-Regular";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 135% */
+}
+.principles-img{
+    width: 100%;
+}
+.line{
+    text-align: center;
+}
+/* priciples end */
+
+/* clients start */
+.clients{
+    padding: 150px 0;
+    background: #101010;
+}
+.clients img{
+    width: 70%;
+}
+/* clients end */
+
+/* get in touch starts */
+.touch{
+    padding: 100px 0;
+    background: #171717;
+
+}
+.touch h2{
+    color: #00AEEF;
+    font-family: "SchibstedGrotesk-SemiBold";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.touch form{
+    margin-top: 40px;
+}
+.form-label{
+    color: #FFF;
+    font-family: "Pretendard-Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.form-ctrl{
+    margin: 5px 0;
+    padding: 20px 20px;
+    background: transparent;
+    color: #838183;
+    font-family: "Pretendard-Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 12px;
+    border: 1px solid #303030;
+}
+.form-ctrl:focus {
+    color: #FFF;
+    background:rgba(255, 255, 255, 0.31);
+    opacity: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.24);
+    outline: 0;
+    box-shadow: none;
+}
+.submit-btn{
+    margin-top: 20px;
+    width: 185px;
+}
+.touch img{
+    width: 100%;
+}
+/* get in touch end */
+
+/* footer starts */
+footer{
+    padding: 40px;
+    background: #101010;
+}
+.divider{
+    margin-top: 30px;
+    background: #272727;
+    width: 100%;
+    height: 1.5px;
+}
+.footer-context{
+    margin-top: 100px;
+}
+.footer-h6{
+    color: #F3F3F3;
+    font-family: "Pretendard-Medium";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 166.667% */
+}
+.underlined-a{
+    color: #848484;
+    font-family: "Pretendard-Regular";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 181.818% */
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+.footer-context img{
+    width: 100%;
+}
+.footer-p{
+    color: #848484;
+    font-family: "Pretendard-Regular";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 181.818% */
+}
+.footer-context a{
+    color: #848484;
+    font-family: "Pretendard-Regular";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 181.818% */
+    text-decoration: none;
+}
+.footer-btn{
+    padding: 16px 20px;
+    border-radius: 10px;
+    background: #171717;
+}
+.footer-btn img{
+    width: 100%;
+}
+.footer-btn h5{
+    color: #848484;
+    font-family: "Pretendard-Regular";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 181.818% */
+}
+.footer-btn p{
+    color: #999;
+    font-family: "Pretendard-Regular";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.map{
+    margin-top: 20px;
+}
+.policy{
+    margin-top: 32px;
+}
+.policy p{
+    color: #474747;
+    font-family: "Pretendard-Regular";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 25.2px */
+}
+.privacy{
+    text-align: right;
+}
+/* footer end */
